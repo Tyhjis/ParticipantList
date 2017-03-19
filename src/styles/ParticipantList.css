@@ -26,6 +26,7 @@
 
 .App .participant-list table th {
   padding-left: 1em;
+  cursor: pointer;
 }
 
 .App .participant-list table td {
