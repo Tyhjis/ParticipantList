@@ -1,0 +1,10 @@
+{
+  "participants": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "email": "john.doe@doe.com",
+      "phone": "555666777"
+    }
+  ]
+}

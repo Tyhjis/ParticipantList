@@ -1,0 +1,56 @@
+.App .participant-list {
+  width: 100%;
+  text-align: left;
+}
+
+.App .participant-list table {
+  width: 100%;
+  margin: auto;
+  background: #FFF;
+}
+
+.App .participant-list table tr {
+  background: white;
+}
+
+.App .participant-list table tr::after {
+  content: " ";
+  display: block;
+  height: 1px;
+}
+
+.App .participant-list table th, .App .participant-list table td {
+  padding: 15px 1em;
+  min-width: 100px;
+}
+
+.App .participant-list table th {
+  padding-left: 1em;
+}
+
+.App .participant-list table td {
+  padding: 15px 1em;
+  min-width: 100px;
+}
+
+.App .participant-form form input[type=text]:nth-child(2),
+.App .participant-list table tr td:nth-child(2),
+.App .participant-list table tr th:nth-child(2) {
+  min-width: 150px;
+}
+
+.App .participant-list table thead tr {
+}
+
+.App .participant-list table thead tr th {
+  font-weight: lighter;
+  font-size: 0.95em;
+}
+
+.App .participant-list table tbody tr {
+  color: #575757;
+}
+
+.App .participant-list table tbody tr td {
+
+}
